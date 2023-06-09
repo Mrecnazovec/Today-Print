@@ -15,6 +15,8 @@ $(document).ready(function(){
               settings: {
                 arrows: false,
                 swipe:true,
+                autoplaySpeed:3000,
+
 
 
               }
@@ -26,6 +28,8 @@ $(document).ready(function(){
                   swipe:true,
                   centerPadding: '0px',
                   slidesToShow: 1,
+                  autoplaySpeed:3000,
+                  
 
   
                 }
@@ -43,7 +47,7 @@ $(document).ready(function(){
         nextArrow: '<button id="next" type="button" class="btn navigate next two"><img src="./assets/svg/arrow.svg" alt="ar"></button>',
         autoplay:true,
         dots:true, 
-        autoplaySpeed:10000,
+        autoplaySpeed:3000,
         swipe:false,
         responsive: [
             {
@@ -75,6 +79,7 @@ $(document).ready(function(){
               settings: {
                 slidesToShow: 4,
                 slidesToScroll: 1,
+                autoplaySpeed:3000,
               }
             },
             {
@@ -84,6 +89,7 @@ $(document).ready(function(){
                   swipe:true,
                   slidesToShow: 4,
                   slidesToScroll: 1,
+                  autoplaySpeed:3000,
   
   
                 }
@@ -95,6 +101,7 @@ $(document).ready(function(){
                   swipe:true,
                   slidesToShow: 3,
                   slidesToScroll: 1,
+                  autoplaySpeed:3000,
   
   
                 }
@@ -106,6 +113,7 @@ $(document).ready(function(){
                   swipe:true,
                   slidesToShow: 2,
                   slidesToScroll: 1,
+                  autoplaySpeed:3000,
   
   
                 }
@@ -117,6 +125,7 @@ $(document).ready(function(){
                   swipe:true,
                   slidesToShow: 1,
                   slidesToScroll: 1,
+                  autoplaySpeed:3000,
   
   
                 }

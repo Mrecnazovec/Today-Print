@@ -548,16 +548,14 @@ header {
 .norm {
 	left: -30px;
 	top: -70px;
-
 }
 @keyframes krug {
-	0%{
+	0% {
 		transform: rotate(0deg);
 	}
-	100%{
+	100% {
 		transform: rotate(360deg);
 	}
-	
 }
 
 .navigate.prev.two {
@@ -955,7 +953,7 @@ header {
 .check-text {
 	font-family: 'Montserrat';
 	font-style: normal;
-	font-weight: 400;
+	font-weight: bold;
 	font-size: 14px;
 	line-height: 17px;
 	color: #ffffff;
