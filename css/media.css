@@ -441,7 +441,7 @@
 		width: 280px;
 	}
 }
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 400px) {
 	.header_title,
 	.header_title_two {
 		font-size: 20px;
