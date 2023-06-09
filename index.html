@@ -21,8 +21,8 @@
 <body>
     <div class="wrapper">
         <header>
-            <div class="container">
-                <nav class="navbar">
+            <div class="fixed">
+                <nav class="navbar container">
                     <a class="navbar__img" href="#">
                         <img src="./assets/icons/logo.svg" alt="Logo">
                         <div class="logo_img"></div>
@@ -30,7 +30,7 @@
 
                     <ul class="menu">
                         <li class="menu__list">
-                            <a class="menu__link active" href="#main">Главная</a>
+                            <a class="menu__link active" href="#">Главная</a>
                         </li>
                         <li class="menu__list">
                             <a class="menu__link" href="#aboutUs">О нас</a>
@@ -62,7 +62,7 @@
                                 <p class="header_text">Рассчитав стоимость вашего заказа всего за 25 минут, <br> за 1
                                     час напечатаем свыше >600 чертежей формата А-1. <br> С доставкой в Ваш офис, на
                                     объект в РТ и регионы!</p>
-                                <button class="btn header_button">Узнать цены!</button>
+                                <a href="#contact" class="btn header_button">Узнать цены!</a>
 
                             </div>
                             <div class="header_image_box">
@@ -109,8 +109,8 @@
                     </div>
                 </div>
                 <div class="carousel-box">
-                    <div class="container">
-                        <div class="carousel lp">
+                    <div class="">
+                        <div class="carousel">
                             <div class="item">
                                 <div class="box-carousel">
                                     <img src="./assets/images/1.png" alt="pic">
@@ -207,7 +207,11 @@
                     <div class="container">
                         <div class="carousel-1 lp">
                             <div class="item-1">
-                                <img class="fale" src="./assets/images/printer1.png" alt="">
+                                <div class="img-print-box">
+                                    <img class="fale main-pic" src="./assets/images/11.png" alt="">
+                                    <img class="print" src="./assets/images/Print.png" alt="">
+
+                                </div>
                                 <div class="carousel-text-box">
                                     <h1 class="carousel-title">Плоттер HP Designjet T520</h1>
                                     <h1 class="carousel-info">Широкоформатный плоттер HP Designjet T520 с 4-цветной
@@ -220,7 +224,11 @@
                                 </div>
                             </div>
                             <div class="item-1">
-                                <img src="./assets/images/printer2.png" alt="">
+                                <div class="img-print-box margin">
+                                    <img class="main-pic" src="./assets/images/22.png" alt="">
+                                    <img class="print norm" src="./assets/images/Print.png" alt="">
+
+                                </div>
                                 <div class="carousel-text-box">
                                     <h1 class="carousel-title">Принтер Kyocera P2335d</h1>
                                     <h1 class="carousel-info">Лазерная монохромная технология печати гарантирует
@@ -233,7 +241,11 @@
                                 </div>
                             </div>
                             <div class="item-1">
-                                <img src="./assets/images/printer3.png" alt="">
+                                <div class="img-print-box margin">
+                                    <img class="main-pic" src="./assets/images/33.png" alt="">
+                                    <img class="print norm" src="./assets/images/Print.png" alt="">
+
+                                </div>
                                 <div class="carousel-text-box">
                                     <h1 class="carousel-title">Принтер HP M435nw</h1>
                                     <h1 class="carousel-info">Лазерная монохромная технология печати, позволит создавать
@@ -285,7 +297,9 @@
                             <h1 class="five-six-title">Хотите получить
                                 <span>актуальные цены?</span>
                             </h1>
-                            <button class="btn header_button">Скачать КП!</button>
+                            <form method="get" action="./assets/files/КП Today Print.pdf">
+                                <button class="btn header_button" type="submit">Скачать КП!</button>
+                             </form>
                         </div>
                     </div>
                 </div>
@@ -326,20 +340,7 @@
                                     </div>
 
                                 </div>
-                                <div class="info-main">
-                                    <div class="info-main-top">
-                                        <h1 class="info-main-top-text">Какая у вас форма оплаты?
-                                        </h1>
-                                        <button class="btn btn-krest">
-                                            <img class="btn-kr" src="./assets/svg/close.svg" alt="close">
-                                        </button>
-                                    </div>
-                                    <div class="info-main-bot">
-                                        <h1 class="info-main-bot-text">Мы работаем по договору, принимаем оплату
-                                            безналичным и наличным расчётом</h1>
-                                    </div>
 
-                                </div>
                             </div>
                             <div class="info-box">
                                 <div class="info-main">
@@ -371,6 +372,20 @@
                                         <h1 class="info-main-bot-text">Мы имеем более чем девятилетний опыт работы и
                                             выполнили более 1 000 заказов. Крупные компании доверяют нам, и мы
                                             гарантируем сроки и качество нашей работы по договору</h1>
+                                    </div>
+
+                                </div>
+                                <div class="info-main">
+                                    <div class="info-main-top">
+                                        <h1 class="info-main-top-text">Какая у вас форма оплаты?
+                                        </h1>
+                                        <button class="btn btn-krest">
+                                            <img class="btn-kr" src="./assets/svg/close.svg" alt="close">
+                                        </button>
+                                    </div>
+                                    <div class="info-main-bot">
+                                        <h1 class="info-main-bot-text">Мы работаем по договору, принимаем оплату
+                                            безналичным и наличным расчётом</h1>
                                     </div>
 
                                 </div>
@@ -442,8 +457,8 @@
                         </div>
                     </div>
                     <div class="footer-contact-box">
-                        <a href="#" class="footer-tel">+7 (937) 525-30-33</a>
-                        <a href="#" class="footer-mail">t0day.print@yandex.ru</a>
+                        <a href="tel:+7 (937) 525-30-33" class="footer-tel">+7 (937) 525-30-33</a>
+                        <a href="mailto:t0day.print@yandex.ru" class="footer-mail">t0day.print@yandex.ru</a>
                     </div>
                 </div>
             </div>

@@ -7,11 +7,11 @@ $(document).ready(function(){
         prevArrow: '<button id="prev" type="button" class="btn navigate prev"><img src="./assets/svg/arrow.svg" alt="ar"></button>',
         nextArrow: '<button id="next" type="button" class="btn navigate next"><img src="./assets/svg/arrow.svg" alt="ar"></button>',
         autoplay:true,
-        autoplaySpeed:10000,
+        autoplaySpeed:3000,
         swipe:false,
         responsive: [
             {
-              breakpoint: 1318,
+              breakpoint: 1350,
               settings: {
                 arrows: false,
                 swipe:true,
@@ -47,7 +47,7 @@ $(document).ready(function(){
         swipe:false,
         responsive: [
             {
-              breakpoint: 1318,
+              breakpoint: 1350,
               settings: {
                 arrows: false,
                 swipe:true,
@@ -67,7 +67,7 @@ $(document).ready(function(){
         prevArrow: '<button id="prev" type="button" class="btn navigate prev three"><img src="./assets/svg/arrowBlack.svg" alt="ar"></button>',
         nextArrow: '<button id="next" type="button" class="btn navigate next three"><img src="./assets/svg/arrowBlack.svg" alt="ar"></button>',
         autoplay:true,
-        autoplaySpeed:10000,
+        autoplaySpeed:3000,
         swipe:false,
         responsive: [
             {
@@ -78,7 +78,7 @@ $(document).ready(function(){
               }
             },
             {
-                breakpoint: 1318,
+                breakpoint: 1350,
                 settings: {
                   arrows: false,
                   swipe:true,
