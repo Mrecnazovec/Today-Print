@@ -998,6 +998,7 @@ header {
 	text-align: center;
 	text-transform: uppercase;
 	color: #000000;
+	animation: btn 1.5s alternate-reverse infinite;
 }
 
 /* seven-end */
