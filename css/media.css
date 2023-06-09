@@ -374,25 +374,28 @@
 		padding: 40px 0;
 	}
 	.main-pic {
-		width: 313px;
-		height: 252px;
+		width: 213px;
+		height: 152px;
 	}
 	.print {
-		width: 384px;
-		height: 384px;
+		width: 284px;
+		height: 284px;
+		left: 0;
+		top: 0;
 	}
 	.norm {
-		width: 384px;
-		height: 384px;
+		width: 284px;
+		height: 284px;
 		left: -38px;
+		top: 30px;
 
 	}
 	.item-1:nth-child(4) .norm {
 		left: -47px;
 	}
 	.fale {
-		width: 505px !important;
-		height: 428px !important;
+		width: 355px !important;
+		height: 278px !important;
 	}
 }
 @media screen and (max-width: 500px) {
@@ -476,15 +479,15 @@
 	.three {
 		padding: 40px 0;
 	}
-	.four .carousel-1 img {
+	/* .four .carousel-1 img {
 		width: 270px;
 		height: 300px;
-	}
-	.fale {
+	} */
+	/* .fale {
 		width: 375px !important;
 		height: 300px !important;
 		margin-top: 50px;
-	}
+	} */
     .carousel-title {
         margin-bottom: 10px;
         font-size: 20px;
