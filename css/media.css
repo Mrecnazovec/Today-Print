@@ -9,11 +9,7 @@
         margin-left: 50px;
     }
     .navigate.prev {
-        /* left: -10px;
-	} */
-        /* .navigate.next {
-		right: 45px;
-	} */
+
         .navigate.next.three {
             right: 0;
         }
@@ -23,7 +19,13 @@
         .four .navigate.next {
             right: 0;
         }
+
+
     }
+    .text-carousel {
+        font-size:15px;
+    }
+}
     @media screen and (max-width: 1300px) {
         .header_title {
             font-size: 40px;
@@ -83,6 +85,10 @@
         .lp {
             padding-left: 20px !important;
         }
+        .big_one__one {
+            margin-right:190px;
+        }
+      
     }
     @media screen and (max-width: 1200px) {
         .fale {
